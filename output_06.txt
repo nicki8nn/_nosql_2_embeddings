@@ -1,0 +1,240 @@
+
+====================================================================================================
+[exact term] "BERT fine-tuning"
+====================================================================================================
+
+  --- BM25 ---
+  1. [bm25 = 19.6443] Utilizing BERT Intermediate Layers for Aspect Based Sentiment Analysis and 
+     cs.CL | 2020 | Song Youwei, Wang Jiahai, Liang Zhiwei, Liu Zhiyue, Jiang Ta
+  2. [bm25 = 14.7991] It's not Greek to mBERT: Inducing Word-Level Translations from Multilingual
+     cs.CL | 2020 | Gonen Hila, Ravfogel Shauli, Elazar Yanai, Goldberg Yoav
+  3. [bm25 = 14.0840] Annotated Job Ads with Named Entity Recognition
+     cs.CL | 2023 | Stollenwerk Felix, Fastlund Niklas, Nyqvist Anna, Öhman Joey
+  4. [bm25 = 14.0223] Robust Transfer Learning with Pretrained Language Models through Adapters
+     cs.CL | 2021 | Han Wenjuan, Pang Bo, Wu Yingnian
+  5. [bm25 = 13.8981] Enabling Natural Zero-Shot Prompting on Encoder Models via Statement-Tuning
+     cs.CL | 2024 | Elshabrawy Ahmed, Huang Yongxin, Gurevych Iryna, Aji Alham F
+
+  --- Vector (Pinecone) ---
+  1. [cosine = 0.8693] Deep Reinforcement Learning Radio Control and Signal Detection with KeRLym,
+     cs.LG | 2016 | O'Shea Timothy J., Clancy T. Charles
+  2. [cosine = 0.8679] Boredom-driven curious learning by Homeo-Heterostatic Value Gradients
+     cs.AI | 2018 | Yu Yen, Chang Acer Y. C., Kanai Ryota
+  3. [cosine = 0.8626] A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning an
+     cs.AI | 2025 | Pan Qianjun, Ji Wenkai, Ding Yuyang, Li Junsong, Chen Shilia
+  4. [cosine = 0.8605] Beyond Fixed Morphologies: Learning Graph Policies with Trust Region Compen
+     cs.LG | 2025 | Gallien Thomas
+  5. [cosine = 0.8585] PolySwarm: A Multi-Agent Large Language Model Framework for Prediction Mark
+     cs.AI | 2026 | Barot Rajat M., Borkhatariya Arjun S.
+
+  --- Hybrid RRF (k=60) ---
+  1. [rrf = 0.0164] Utilizing BERT Intermediate Layers for Aspect Based Sentiment Analysis and   (BM25 #1, vector —)
+     cs.CL | 2020 | Song Youwei, Wang Jiahai, Liang Zhiwei, Liu Zhiyue, Jiang Ta
+  2. [rrf = 0.0164] Deep Reinforcement Learning Radio Control and Signal Detection with KeRLym,  (BM25 —, vector #1)
+     cs.LG | 2016 | O'Shea Timothy J., Clancy T. Charles
+  3. [rrf = 0.0161] It's not Greek to mBERT: Inducing Word-Level Translations from Multilingual  (BM25 #2, vector —)
+     cs.CL | 2020 | Gonen Hila, Ravfogel Shauli, Elazar Yanai, Goldberg Yoav
+  4. [rrf = 0.0161] Boredom-driven curious learning by Homeo-Heterostatic Value Gradients  (BM25 —, vector #2)
+     cs.AI | 2018 | Yu Yen, Chang Acer Y. C., Kanai Ryota
+  5. [rrf = 0.0159] Annotated Job Ads with Named Entity Recognition  (BM25 #3, vector —)
+     cs.CL | 2023 | Stollenwerk Felix, Fastlund Niklas, Nyqvist Anna, Öhman Joey
+
+====================================================================================================
+[author name] "Yann LeCun convolutional networks"
+====================================================================================================
+
+  --- BM25 ---
+  1. [bm25 = 11.1225] Convexified Convolutional Neural Networks
+     cs.LG | 2016 | Zhang Yuchen, Liang Percy, Wainwright Martin J.
+  2. [bm25 = 10.2732] Re-presenting a Story by Emotional Factors using Sentimental Analysis Metho
+     cs.CL | 2016 | Jo Hwiyeol, Moon Yohan, Kim Jong In, Ryu Jeong
+  3. [bm25 = 9.5839] A Hybrid Method for Training Convolutional Neural Networks
+     cs.NE | 2020 | Lopes Vasco, Fazendeiro Paulo
+  4. [bm25 = 9.5257] R-FCN: Object Detection via Region-based Fully Convolutional Networks
+     cs.CV | 2016 | Dai Jifeng, Li Yi, He Kaiming, Sun Jian
+  5. [bm25 = 9.3683] Norm-based Generalization Bounds for Compositionally Sparse Neural Networks
+     cs.LG | 2023 | Galanti Tomer, Xu Mengjia, Galanti Liane, Poggio Tomaso
+
+  --- Vector (Pinecone) ---
+  1. [cosine = 0.8845] KAConvNet: Kolmogorov-Arnold Convolutional Networks for Vision Recognition
+     cs.CV | 2026 | Liu Zhaoxiang, Ma Zhicheng, Zhao Kaikai, Wang Kai, Lian Shig
+  2. [cosine = 0.8771] The High-Dimensional Geometry of Binary Neural Networks
+     cs.LG | 2017 | Anderson Alexander G., Berg Cory P.
+  3. [cosine = 0.8747] Deep Unitary Convolutional Neural Networks
+     cs.LG | 2021 | Chang Hao-Yuan, Wang Kang L.
+  4. [cosine = 0.8743] Reproduction Report on "Learn to Pay Attention"
+     cs.LG | 2018 | Shugliashvili Levan, Soselia Davit, Amashukeli Shota, Koberi
+  5. [cosine = 0.8717] Upright adjustment with graph convolutional networks
+     cs.CV | 2024 | Jung Raehyuk, Cho Sungmin, Kwon Junseok
+
+  --- Hybrid RRF (k=60) ---
+  1. [rrf = 0.0311] KAConvNet: Kolmogorov-Arnold Convolutional Networks for Vision Recognition  (BM25 #8, vector #1)
+     cs.CV | 2026 | Liu Zhaoxiang, Ma Zhicheng, Zhao Kaikai, Wang Kai, Lian Shig
+  2. [rrf = 0.0310] Deep Unitary Convolutional Neural Networks  (BM25 #6, vector #3)
+     cs.LG | 2021 | Chang Hao-Yuan, Wang Kang L.
+  3. [rrf = 0.0299] Upright adjustment with graph convolutional networks  (BM25 #9, vector #5)
+     cs.CV | 2024 | Jung Raehyuk, Cho Sungmin, Kwon Junseok
+  4. [rrf = 0.0164] Convexified Convolutional Neural Networks  (BM25 #1, vector —)
+     cs.LG | 2016 | Zhang Yuchen, Liang Percy, Wainwright Martin J.
+  5. [rrf = 0.0161] Re-presenting a Story by Emotional Factors using Sentimental Analysis Metho  (BM25 #2, vector —)
+     cs.CL | 2016 | Jo Hwiyeol, Moon Yohan, Kim Jong In, Ryu Jeong
+
+====================================================================================================
+[paraphrase] "making computers understand human emotions from text"
+====================================================================================================
+
+  --- BM25 ---
+  1. [bm25 = 13.6638] EmoGenie: Benchmarking and Evaluating Expressed and Evoked Emotion in T2I G
+     cs.CV | 2026 | Xing Zixuan, Gao Lancheng, Li Shengyan, Duan Huiyu, Cai Zhao
+  2. [bm25 = 13.1114] Performance Evaluation of Supervised Machine Learning Techniques for Effici
+     cs.IR | 2019 | Asghar Muhammad Zubair, Subhan Fazli, Imran Muhammad, Kundi 
+  3. [bm25 = 12.9892] AGI: Artificial General Intelligence for Education
+     cs.AI | 2023 | Latif Ehsan, Mai Gengchen, Nyaaba Matthew, Wu Xuansheng, Liu
+  4. [bm25 = 12.8882] Do Text Simplification Systems Preserve Meaning? A Human Evaluation via Rea
+     cs.CL | 2023 | Agrawal Sweta, Carpuat Marine
+  5. [bm25 = 12.7351] Evaluation of Generative Models for Emotional 3D Animation Generation in VR
+     cs.HC | 2025 | Chhatre Kiran, Guarese Renan, Matviienko Andrii, Peters Chri
+
+  --- Vector (Pinecone) ---
+  1. [cosine = 0.8839] Performance Evaluation of Supervised Machine Learning Techniques for Effici
+     cs.IR | 2019 | Asghar Muhammad Zubair, Subhan Fazli, Imran Muhammad, Kundi 
+  2. [cosine = 0.8815] "We care": Improving Code Mixed Speech Emotion Recognition in Customer-Care
+     cs.AI | 2023 | Abhishek N V S, Bhattacharyya Pushpak
+  3. [cosine = 0.8762] Emotion Recognition and Generation: A Comprehensive Review of Face, Speech,
+     cs.LG | 2025 | Mobbs Rebecca, Makris Dimitrios, Argyriou Vasileios
+  4. [cosine = 0.8745] Datasets for Valence and Arousal Inference: A Survey
+     cs.HC | 2025 | Schneider Helen, Pavlitska Svetlana, Gremmelmaier Helen, Zöl
+  5. [cosine = 0.8739] EmpathBERT: A BERT-based Framework for Demographic-aware Empathy Prediction
+     cs.LG | 2021 | Guda Bhanu Prakash Reddy, Garimella Aparna, Chhaya Niyati
+
+  --- Hybrid RRF (k=60) ---
+  1. [rrf = 0.0325] Performance Evaluation of Supervised Machine Learning Techniques for Effici  (BM25 #2, vector #1)
+     cs.IR | 2019 | Asghar Muhammad Zubair, Subhan Fazli, Imran Muhammad, Kundi 
+  2. [rrf = 0.0164] EmoGenie: Benchmarking and Evaluating Expressed and Evoked Emotion in T2I G  (BM25 #1, vector —)
+     cs.CV | 2026 | Xing Zixuan, Gao Lancheng, Li Shengyan, Duan Huiyu, Cai Zhao
+  3. [rrf = 0.0161] "We care": Improving Code Mixed Speech Emotion Recognition in Customer-Care  (BM25 —, vector #2)
+     cs.AI | 2023 | Abhishek N V S, Bhattacharyya Pushpak
+  4. [rrf = 0.0159] AGI: Artificial General Intelligence for Education  (BM25 #3, vector —)
+     cs.AI | 2023 | Latif Ehsan, Mai Gengchen, Nyaaba Matthew, Wu Xuansheng, Liu
+  5. [rrf = 0.0159] Emotion Recognition and Generation: A Comprehensive Review of Face, Speech,  (BM25 —, vector #3)
+     cs.LG | 2025 | Mobbs Rebecca, Makris Dimitrios, Argyriou Vasileios
+
+====================================================================================================
+[paraphrase (mine)] "protecting user data when training models on many devices"
+====================================================================================================
+
+  --- BM25 ---
+  1. [bm25 = 13.9603] Federated Unbiased Learning to Rank
+     cs.IR | 2021 | Li Chang, Ouyang Hua
+  2. [bm25 = 13.6827] Random Deployment of Data Collectors for Serving Randomly-Located Sensors
+     cs.NI | 2011 | Kwon Taesoo, Cioffi John. M.
+  3. [bm25 = 13.2187] GPU backed Data Mining on Android Devices
+     cs.DC | 2021 | Fritze Robert, Plant Claudia
+  4. [bm25 = 12.9121] GRAIMATTER Green Paper: Recommendations for disclosure control of trained M
+     cs.LG | 2022 | Jefferson Emily, Liley James, Malone Maeve, Reel Smarti, Cre
+  5. [bm25 = 12.5994] Towards Practical Watermark for Deep Neural Networks in Federated Learning
+     cs.CR | 2021 | Li Fang-Qi, Wang Shi-Lin, Liew Alan Wee-Chung
+
+  --- Vector (Pinecone) ---
+  1. [cosine = 0.8809] Pretraining Data Exposure in Large Language Models: A Survey of Membership 
+     cs.CL | 2026 | Tong Ziyi, Sun Feifei, Nguyen Le Minh
+  2. [cosine = 0.8789] Enhancing Privacy in ControlNet and Stable Diffusion via Split Learning
+     cs.LG | 2024 | Yao Dixi
+  3. [cosine = 0.8745] Rethinking Membership Inference Attacks Against Transfer Learning
+     cs.CR | 2025 | Wu Cong, Chen Jing, Fang Qianru, He Kun, Zhao Ziming, Ren Ha
+  4. [cosine = 0.8725] Securing Graph Neural Networks in MLaaS: A Comprehensive Realization of Que
+     cs.CR | 2023 | Wu Bang, Yuan Xingliang, Wang Shuo, Li Qi, Xue Minhui, Pan S
+  5. [cosine = 0.8723] Synthetic ID Card Image Generation for Improving Presentation Attack Detect
+     cs.CV | 2022 | Benalcazar Daniel, Tapia Juan E., Gonzalez Sebastian, Busch 
+
+  --- Hybrid RRF (k=60) ---
+  1. [rrf = 0.0307] Pretraining Data Exposure in Large Language Models: A Survey of Membership   (BM25 #10, vector #1)
+     cs.CL | 2026 | Tong Ziyi, Sun Feifei, Nguyen Le Minh
+  2. [rrf = 0.0164] Federated Unbiased Learning to Rank  (BM25 #1, vector —)
+     cs.IR | 2021 | Li Chang, Ouyang Hua
+  3. [rrf = 0.0161] Random Deployment of Data Collectors for Serving Randomly-Located Sensors  (BM25 #2, vector —)
+     cs.NI | 2011 | Kwon Taesoo, Cioffi John. M.
+  4. [rrf = 0.0161] Enhancing Privacy in ControlNet and Stable Diffusion via Split Learning  (BM25 —, vector #2)
+     cs.LG | 2024 | Yao Dixi
+  5. [rrf = 0.0159] GPU backed Data Mining on Android Devices  (BM25 #3, vector —)
+     cs.DC | 2021 | Fritze Robert, Plant Claudia
+
+====================================================================================================
+EXPERIMENT: author names are not in the BM25 index
+====================================================================================================
+Papers with 'LeCun' among the authors in the sample: 2
+  - Revisiting Feature Prediction for Learning Visual Representations from Video (2024)
+  - Compact and Optimal Deep Learning with Recurrent Parameter Generators (2021)
+
+  --- BM25 on title + abstract (as in the assignment) ---
+  1. [bm25 = 11.1225] Convexified Convolutional Neural Networks
+     cs.LG | 2016 | Zhang Yuchen, Liang Percy, Wainwright Martin J.
+  2. [bm25 = 10.2732] Re-presenting a Story by Emotional Factors using Sentimental Analysis Metho
+     cs.CL | 2016 | Jo Hwiyeol, Moon Yohan, Kim Jong In, Ryu Jeong
+  3. [bm25 = 9.5839] A Hybrid Method for Training Convolutional Neural Networks
+     cs.NE | 2020 | Lopes Vasco, Fazendeiro Paulo
+  4. [bm25 = 9.5257] R-FCN: Object Detection via Region-based Fully Convolutional Networks
+     cs.CV | 2016 | Dai Jifeng, Li Yi, He Kaiming, Sun Jian
+  5. [bm25 = 9.3683] Norm-based Generalization Bounds for Compositionally Sparse Neural Networks
+     cs.LG | 2023 | Galanti Tomer, Xu Mengjia, Galanti Liane, Poggio Tomaso
+
+  --- BM25 on title + abstract + AUTHORS ---
+  1. [bm25 = 17.1372] Compact and Optimal Deep Learning with Recurrent Parameter Generators
+     cs.CV | 2021 | Wang Jiayun, Chen Yubei, Yu Stella X., Cheung Brian, LeCun Y
+  2. [bm25 = 15.8300] Revisiting Feature Prediction for Learning Visual Representations from Vide
+     cs.CV | 2024 | Bardes Adrien, Garrido Quentin, Ponce Jean, Chen Xinlei, Rab
+  3. [bm25 = 11.1044] Convexified Convolutional Neural Networks
+     cs.LG | 2016 | Zhang Yuchen, Liang Percy, Wainwright Martin J.
+  4. [bm25 = 9.6865] Re-presenting a Story by Emotional Factors using Sentimental Analysis Metho
+     cs.CL | 2016 | Jo Hwiyeol, Moon Yohan, Kim Jong In, Ryu Jeong
+  5. [bm25 = 9.6505] A Hybrid Method for Training Convolutional Neural Networks
+     cs.NE | 2020 | Lopes Vasco, Fazendeiro Paulo
+
+====================================================================================================
+EXPERIMENT: RRF parameter k (60 vs 1)
+====================================================================================================
+
+Contribution of one list to the RRF score, by rank:
+  rank |     k=60 |      k=1
+     1 |   0.0164 |   0.5000
+     2 |   0.0161 |   0.3333
+     3 |   0.0159 |   0.2500
+     5 |   0.0154 |   0.1667
+    10 |   0.0143 |   0.0909
+
+[exact term] "BERT fine-tuning"  — same top-5: True
+  1. k=60: Utilizing BERT Intermediate Layers for Asp | k=1: Utilizing BERT Intermediate Layers for Asp
+  2. k=60: Deep Reinforcement Learning Radio Control  | k=1: Deep Reinforcement Learning Radio Control 
+  3. k=60: It's not Greek to mBERT: Inducing Word-Lev | k=1: It's not Greek to mBERT: Inducing Word-Lev
+  4. k=60: Boredom-driven curious learning by Homeo-H | k=1: Boredom-driven curious learning by Homeo-H
+  5. k=60: Annotated Job Ads with Named Entity Recogn | k=1: Annotated Job Ads with Named Entity Recogn
+
+[author name] "Yann LeCun convolutional networks"  — same top-5: False
+  1. k=60: KAConvNet: Kolmogorov-Arnold Convolutional | k=1: KAConvNet: Kolmogorov-Arnold Convolutional
+  2. k=60: Deep Unitary Convolutional Neural Networks | k=1: Convexified Convolutional Neural Networks
+  3. k=60: Upright adjustment with graph convolutiona | k=1: Deep Unitary Convolutional Neural Networks
+  4. k=60: Convexified Convolutional Neural Networks  | k=1: Re-presenting a Story by Emotional Factors
+  5. k=60: Re-presenting a Story by Emotional Factors | k=1: The High-Dimensional Geometry of Binary Ne
+
+[paraphrase] "making computers understand human emotions from text"  — same top-5: True
+  1. k=60: Performance Evaluation of Supervised Machi | k=1: Performance Evaluation of Supervised Machi
+  2. k=60: EmoGenie: Benchmarking and Evaluating Expr | k=1: EmoGenie: Benchmarking and Evaluating Expr
+  3. k=60: "We care": Improving Code Mixed Speech Emo | k=1: "We care": Improving Code Mixed Speech Emo
+  4. k=60: AGI: Artificial General Intelligence for E | k=1: AGI: Artificial General Intelligence for E
+  5. k=60: Emotion Recognition and Generation: A Comp | k=1: Emotion Recognition and Generation: A Comp
+
+[paraphrase (mine)] "protecting user data when training models on many devices"  — same top-5: True
+  1. k=60: Pretraining Data Exposure in Large Languag | k=1: Pretraining Data Exposure in Large Languag
+  2. k=60: Federated Unbiased Learning to Rank        | k=1: Federated Unbiased Learning to Rank
+  3. k=60: Random Deployment of Data Collectors for S | k=1: Random Deployment of Data Collectors for S
+  4. k=60: Enhancing Privacy in ControlNet and Stable | k=1: Enhancing Privacy in ControlNet and Stable
+  5. k=60: GPU backed Data Mining on Android Devices  | k=1: GPU backed Data Mining on Android Devices
+
+====================================================================================================
+SUMMARY: #1 result per method
+====================================================================================================
+            query                                       BM25 #1                                     Vector #1                                     Hybrid #1  overlap BM25∩vector (top-10)
+       exact term Utilizing BERT Intermediate Layers for Aspect Deep Reinforcement Learning Radio Control and Utilizing BERT Intermediate Layers for Aspect                             0
+      author name     Convexified Convolutional Neural Networks KAConvNet: Kolmogorov-Arnold Convolutional Ne KAConvNet: Kolmogorov-Arnold Convolutional Ne                             3
+       paraphrase EmoGenie: Benchmarking and Evaluating Express Performance Evaluation of Supervised Machine  Performance Evaluation of Supervised Machine                              1
+paraphrase (mine)           Federated Unbiased Learning to Rank Pretraining Data Exposure in Large Language M Pretraining Data Exposure in Large Language M                             1

@@ -1,0 +1,231 @@
+No sentence-transformers model found with name allenai/specter2_base. Creating a new one with mean pooling.
+
+==========================================================================================
+1. SEMANTIC SEARCH (no filters)
+==========================================================================================
+
+Query: "teaching machines to recognize objects in pictures"
+
+1. [cosine = 0.8614] Vision Transformers: State of the Art and Research Challenges
+   cs.CV | 2022 | arXiv:2207.03041
+   Transformers have achieved great success in natural language processing. Due to the powerful capability of self-attention mechanism in transformers, researchers develop the vision transformers for a v...
+2. [cosine = 0.8521] Reproduction Report on "Learn to Pay Attention"
+   cs.LG | 2018 | arXiv:1812.04650
+   We have successfully implemented the "Learn to Pay Attention" model of attention mechanism in convolutional neural networks, and have replicated the results of the original paper in the categories of ...
+3. [cosine = 0.8504] Machine-learnable Sets
+   cs.LG | 2026 | arXiv:2606.28947
+   In this study we present a formal definition of large discrete sets having, informally, three properties: theirelements are easily recognized, easily generated, and the latter tasks are easily learne...
+4. [cosine = 0.8500] Morphological Image Analysis and Feature Extraction for Reasoning with AI-based Defect Detection and Classification Models
+   cs.CV | 2023 | arXiv:2307.11643
+   As the use of artificial intelligent (AI) models becomes more prevalent in industries such as engineering and manufacturing, it is essential that these models provide transparent reasoning behind thei...
+5. [cosine = 0.8498] A Novel Biologically Mechanism-Based Visual Cognition Model--Automatic Extraction of Semantics, Formation of Integrated Concepts and Re-selection Features for Ambiguity
+   cs.CV | 2016 | arXiv:1603.07886
+   Integration between biology and information science benefits both fields. Many related models have been proposed, such as computational visual cognition models, computational motor control models, int...
+
+Query: "protecting user data when training models on many devices"
+
+1. [cosine = 0.8809] Pretraining Data Exposure in Large Language Models: A Survey of Membership Inference, Data Contamination, and Security Implications
+   cs.CL | 2026 | arXiv:2605.26133
+   Large Language Models (LLMs) have become the predominant paradigm in NLP, advancing both research and industry.As model sizes and pretraining data grow, concerns about Pretraining Data Exposure (PDE)...
+2. [cosine = 0.8789] Enhancing Privacy in ControlNet and Stable Diffusion via Split Learning
+   cs.LG | 2024 | arXiv:2409.08503
+   With the emerging trend of large generative models, ControlNet is introduced to enable users to fine-tune pre-trained models with their own data for various use cases. A natural question arises: how c...
+3. [cosine = 0.8745] Rethinking Membership Inference Attacks Against Transfer Learning
+   cs.CR | 2025 | arXiv:2501.11577
+   Transfer learning, successful in knowledge translation across related tasks, faces a substantial privacy threatfrom membership inference attacks (MIAs). These attacks, despite posing significant risk...
+4. [cosine = 0.8725] Securing Graph Neural Networks in MLaaS: A Comprehensive Realization of Query-based IntegrityVerification
+   cs.CR | 2023 | arXiv:2312.07870
+   The deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up new attack surfaces and an escalation in security concerns regarding model-centric attacks. Th...
+5. [cosine = 0.8723] Synthetic ID Card Image Generation for Improving Presentation Attack Detection
+   cs.CV | 2022 | arXiv:2211.00098
+   Currently, it is ever more common to access online services for activities which formerly required physical attendance. From banking operations to visa applications, a significant number of processes ...
+
+==========================================================================================
+2. SEARCH WITH FILTERS
+==========================================================================================
+
+Query: "reinforcement learning agent learns a policy from rewards"
+
+--- Baseline: no filter ---
+
+1. [cosine = 0.9141] Guiding Robot Exploration in Reinforcement Learning via Automated Planning
+   cs.RO | 2020 | arXiv:2004.11456
+   Reinforcement learning (RL) enables an agent to learn from trial-and-error experiences toward achieving long-term goals; automated planning aims to compute plans for accomplishing tasks using action k...
+2. [cosine = 0.9068] Backward Learning for Goal-Conditioned Policies
+   cs.LG | 2023 | arXiv:2312.05044
+   Can we learn policies in reinforcement learning without rewards? Can we learn a policy just by trying to reach a goal state? We answer these questions positively by proposing a multi-step procedure th...
+3. [cosine = 0.9052] Macro Action Reinforcement Learning with Sequence Disentanglement using Variational Autoencoder
+   cs.LG | 2019 | arXiv:1903.09366
+   One problem in the application of reinforcement learning to real-world problems is the curse of dimensionality on the action space. Macro actions, a sequence of primitive actions, have been studied to...
+4. [cosine = 0.9038] Recursive Reasoning Graph for Multi-Agent Reinforcement Learning
+   cs.LG | 2022 | arXiv:2203.02844
+   Multi-agent reinforcement learning (MARL) provides an efficient way for simultaneously learning policies for multiple agents interacting with each other. However, in scenarios requiring complex intera...
+5. [cosine = 0.9032] Multi-Agent Reinforcement Learning for Unmanned Aerial Vehicle Coordination by Multi-Critic Policy Gradient Optimization
+   cs.RO | 2020 | arXiv:2012.15472
+   Recent technological progress in the development of Unmanned Aerial Vehicles (UAVs) together with decreasing acquisition costs make the application of drone fleets attractive for a wide variety of tas...
+
+--- A: cs.LG, year >= 2022 ---
+    filter = {'year': {'$gte': 2022}, 'category': {'$eq': 'cs.LG'}}
+
+1. [cosine = 0.9068] Backward Learning for Goal-Conditioned Policies
+   cs.LG | 2023 | arXiv:2312.05044
+   Can we learn policies in reinforcement learning without rewards? Can we learn a policy just by trying to reach a goal state? We answer these questions positively by proposing a multi-step procedure th...
+2. [cosine = 0.9038] Recursive Reasoning Graph for Multi-Agent Reinforcement Learning
+   cs.LG | 2022 | arXiv:2203.02844
+   Multi-agent reinforcement learning (MARL) provides an efficient way for simultaneously learning policies for multiple agents interacting with each other. However, in scenarios requiring complex intera...
+3. [cosine = 0.9008] Weighted Maximum Entropy Inverse Reinforcement Learning
+   cs.LG | 2022 | arXiv:2208.09611
+   We study inverse reinforcement learning (IRL) and imitation learning (IM), the problems of recovering a reward or policy function from expert's demonstrated trajectories. We propose a new way to impro...
+4. [cosine = 0.8918] Sample Efficient Reinforcement Learning by Automatically Learning to Compose Subtasks
+   cs.LG | 2024 | arXiv:2401.14226
+   Improving sample efficiency is central to Reinforcement Learning (RL), especially in environments where the rewards are sparse. Some recent approaches have proposed to specify reward functions as manu...
+5. [cosine = 0.8876] Which Experiences Are Influential for Your Agent? Policy Iteration with Turn-over Dropout
+   cs.LG | 2023 | arXiv:2301.11168
+   In reinforcement learning (RL) with experience replay, experiences stored in a replay buffer influence the RL agent's performance. Information about the influence is valuable for various purposes, inc...
+
+--- B: year < 2015, any category ---
+    filter = {'year': {'$lt': 2015}}
+
+1. [cosine = 0.8258] Near-Optimally Teaching the Crowd to Classify
+   cs.LG | 2014 | arXiv:1402.2092
+   How should we present training examples to learners to teach them classification rules? This is a natural problem when training workers for crowdsourcing labeling tasks, and is also motivated by chall...
+2. [cosine = 0.8241] Cost Sensitive Reachability Heuristics for Handling State Uncertainty
+   cs.AI | 2012 | arXiv:1207.1350
+   While POMDPs provide a general platform for non-deterministic conditional planning under a variety of quality metrics they have limited scalability. On the other hand, non-deterministic conditional pl...
+3. [cosine = 0.8215] From General Systems to Soft Systems to Soft Computing: Applications for Large and Complex Real World Systems
+   cs.SE | 2005 | arXiv:cs/0511018
+   This is article is taken out....
+4. [cosine = 0.8214] Evolutionary algorithms in genetic regulatory networks model
+   cs.CE | 2012 | arXiv:1205.1986
+   Genetic Regulatory Networks (GRNs) plays a vital role in the understanding of complex biological processes. Modeling GRNs is significantly important in order to reveal fundamental cellular processes, ...
+5. [cosine = 0.8208] Experience-Based Planning with Sparse Roadmap Spanners
+   cs.RO | 2014 | arXiv:1410.1950
+   We present an experienced-based planning framework called Thunder that learns to reduce computation time required to solve high-dimensional planning problems in varying environments. The approach is e...
+
+--- Filter comparison ---
+A (cs.LG, recent): scores 0.8876–0.9068, years 2022–2024, categories ['cs.LG']
+B (before 2015)  : scores 0.8208–0.8258, years 2005–2014, categories ['cs.AI', 'cs.CE', 'cs.LG', 'cs.RO', 'cs.SE']
+
+==========================================================================================
+3. SIMILARITY METRICS ON LOCAL EMBEDDINGS
+==========================================================================================
+Loaded embeddings: (10000, 768), norms min/max = 1.0000 / 1.0000
+
+Query: "teaching machines to recognize objects in pictures"
+
+--- NORMALIZED: top-5 by cosine ---
+1. [cosine = 0.8615] Vision Transformers: State of the Art and Research Challenges
+   cs.CV | 2022 | arXiv:2207.03041
+   Transformers have achieved great success in natural language processing. Due to the powerful capability of self-attention mechanism in transformers, researchers develop the vision transformers for a v...
+2. [cosine = 0.8521] Reproduction Report on "Learn to Pay Attention"
+   cs.LG | 2018 | arXiv:1812.04650
+   We have successfully implemented the "Learn to Pay Attention" model of attention mechanism in convolutional neural networks, and have replicated the results of the original paper in the categories of ...
+3. [cosine = 0.8504] Machine-learnable Sets
+   cs.LG | 2026 | arXiv:2606.28947
+   In this study we present a formal definition of large discrete sets having, informally, three properties: theirelements are easily recognized, easily generated, and the latter tasks are easily learne...
+4. [cosine = 0.8499] Morphological Image Analysis and Feature Extraction for Reasoning with AI-based Defect Detection and Classification Models
+   cs.CV | 2023 | arXiv:2307.11643
+   As the use of artificial intelligent (AI) models becomes more prevalent in industries such as engineering and manufacturing, it is essential that these models provide transparent reasoning behind thei...
+5. [cosine = 0.8498] A Novel Biologically Mechanism-Based Visual Cognition Model--Automatic Extraction of Semantics, Formation of Integrated Concepts and Re-selection Features for Ambiguity
+   cs.CV | 2016 | arXiv:1603.07886
+   Integration between biology and information science benefits both fields. Many related models have been proposed, such as computational visual cognition models, computational motor control models, int...
+
+--- NORMALIZED: top-5 by dot ---
+1. [dot = 0.8615] Vision Transformers: State of the Art and Research Challenges
+   cs.CV | 2022 | arXiv:2207.03041
+   Transformers have achieved great success in natural language processing. Due to the powerful capability of self-attention mechanism in transformers, researchers develop the vision transformers for a v...
+2. [dot = 0.8521] Reproduction Report on "Learn to Pay Attention"
+   cs.LG | 2018 | arXiv:1812.04650
+   We have successfully implemented the "Learn to Pay Attention" model of attention mechanism in convolutional neural networks, and have replicated the results of the original paper in the categories of ...
+3. [dot = 0.8504] Machine-learnable Sets
+   cs.LG | 2026 | arXiv:2606.28947
+   In this study we present a formal definition of large discrete sets having, informally, three properties: theirelements are easily recognized, easily generated, and the latter tasks are easily learne...
+4. [dot = 0.8499] Morphological Image Analysis and Feature Extraction for Reasoning with AI-based Defect Detectionand Classification Models
+   cs.CV | 2023 | arXiv:2307.11643
+   As the use of artificial intelligent (AI) models becomes more prevalent in industries such as engineering and manufacturing, it is essential that these models provide transparent reasoning behind thei...
+5. [dot = 0.8498] A Novel Biologically Mechanism-Based Visual Cognition Model--Automatic Extraction of Semantics, Formation of Integrated Concepts and Re-selection Features for Ambiguity
+   cs.CV | 2016 | arXiv:1603.07886
+   Integration between biology and information science benefits both fields. Many related models have been proposed, such as computational visual cognition models, computational motor control models, int...
+
+--- NORMALIZED: top-5 by L2 ---
+1. [L2 = 0.5264] Vision Transformers: State of the Art and Research Challenges
+   cs.CV | 2022 | arXiv:2207.03041
+   Transformers have achieved great success in natural language processing. Due to the powerful capability of self-attention mechanism in transformers, researchers develop the vision transformers for a v...
+2. [L2 = 0.5438] Reproduction Report on "Learn to Pay Attention"
+   cs.LG | 2018 | arXiv:1812.04650
+   We have successfully implemented the "Learn to Pay Attention" model of attention mechanism in convolutional neural networks, and have replicated the results of the original paper in the categories of ...
+3. [L2 = 0.5469] Machine-learnable Sets
+   cs.LG | 2026 | arXiv:2606.28947
+   In this study we present a formal definition of large discrete sets having, informally, three properties: theirelements are easily recognized, easily generated, and the latter tasks are easily learne...
+4. [L2 = 0.5478] Morphological Image Analysis and Feature Extraction for Reasoning with AI-based Defect Detection and Classification Models
+   cs.CV | 2023 | arXiv:2307.11643
+   As the use of artificial intelligent (AI) models becomes more prevalent in industries such as engineering and manufacturing, it is essential that these models provide transparent reasoning behind thei...
+5. [L2 = 0.5482] A Novel Biologically Mechanism-Based Visual Cognition Model--Automatic Extraction of Semantics, Formation of Integrated Concepts and Re-selection Features for Ambiguity
+   cs.CV | 2016 | arXiv:1603.07886
+   Integration between biology and information science benefits both fields. Many related models have been proposed, such as computational visual cognition models, computational motor control models, int...
+
+>>> NORMALIZED: same top-5 (incl. order)?
+    cosine vs dot: True
+    cosine vs L2:  True
+
+>>> Pinecone top-5 == local cosine top-5: True
+
+Encoding papers WITHOUT normalization (one time, cached afterwards)...
+Batches: 100%|███████████████████████████████████████████████████████████████████| 157/157 [01:15<00:00,  2.09it/s]
+
+NON-normalized embeddings: norms min = 13.42, max = 20.07, mean = 16.91
+
+--- NOT NORMALIZED: top-5 by cosine ---
+1. [cosine = 0.8615] Vision Transformers: State of the Art and Research Challenges
+   cs.CV | 2022 | arXiv:2207.03041
+   Transformers have achieved great success in natural language processing. Due to the powerful capability of self-attention mechanism in transformers, researchers develop the vision transformers for a v...
+2. [cosine = 0.8521] Reproduction Report on "Learn to Pay Attention"
+   cs.LG | 2018 | arXiv:1812.04650
+   We have successfully implemented the "Learn to Pay Attention" model of attention mechanism in convolutional neural networks, and have replicated the results of the original paper in the categories of ...
+3. [cosine = 0.8504] Machine-learnable Sets
+   cs.LG | 2026 | arXiv:2606.28947
+   In this study we present a formal definition of large discrete sets having, informally, three properties: theirelements are easily recognized, easily generated, and the latter tasks are easily learne...
+4. [cosine = 0.8499] Morphological Image Analysis and Feature Extraction for Reasoning with AI-based Defect Detection and Classification Models
+   cs.CV | 2023 | arXiv:2307.11643
+   As the use of artificial intelligent (AI) models becomes more prevalent in industries such as engineering and manufacturing, it is essential that these models provide transparent reasoning behind thei...
+5. [cosine = 0.8498] A Novel Biologically Mechanism-Based Visual Cognition Model--Automatic Extraction of Semantics, Formation of Integrated Concepts and Re-selection Features for Ambiguity
+   cs.CV | 2016 | arXiv:1603.07886
+   Integration between biology and information science benefits both fields. Many related models have been proposed, such as computational visual cognition models, computational motor control models, int...
+
+--- NOT NORMALIZED: top-5 by dot ---
+1. [dot = 314.4849] From General Systems to Soft Systems to Soft Computing: Applications for Large and Complex Real World Systems
+   cs.SE | 2005 | arXiv:cs/0511018
+   This is article is taken out....
+2. [dot = 306.1501] Reproduction Report on "Learn to Pay Attention"
+   cs.LG | 2018 | arXiv:1812.04650
+   We have successfully implemented the "Learn to Pay Attention" model of attention mechanism in convolutional neural networks, and have replicated the results of the original paper in the categories of ...
+3. [dot = 300.9658] Generalised 3D Morton and Hilbert Orderings
+   cs.CG | 2023 | arXiv:2309.15199
+   This document describes algorithms for generating general Morton and Hilbert orderings for three-dimensional data volumes....
+4. [dot = 298.2936] Tree structured sparse coding on cubes
+   cs.IT | 2013 | arXiv:1301.3590
+   A brief description of tree structured sparse coding on the binary cube....
+5. [dot = 297.8528] Overview of AI Grading of Physics Olympiad Exams
+   cs.AI | 2025 | arXiv:2505.02121
+   Automatically grading the diverse range of question types in high school physics problem is a challenge that requires automated grading techniques from different fields. We report the findings of a Sy...
+
+--- NOT NORMALIZED: top-5 by L2 ---
+1. [L2 = 9.9285] Vision Transformers: State of the Art and Research Challenges
+   cs.CV | 2022 | arXiv:2207.03041
+   Transformers have achieved great success in natural language processing. Due to the powerful capability of self-attention mechanism in transformers, researchers develop the vision transformers for a v...
+2. [L2 = 10.2374] Machine-learnable Sets
+   cs.LG | 2026 | arXiv:2606.28947
+   In this study we present a formal definition of large discrete sets having, informally, three properties: theirelements are easily recognized, easily generated, and the latter tasks are easily learne...
+3. [L2 = 10.3515] Morphological Image Analysis and Feature Extraction for Reasoning with AI-based Defect Detectionand Classification Models
+   cs.CV | 2023 | arXiv:2307.11643
+   As the use of artificial intelligent (AI) models becomes more prevalent in industries such as engineering and manufacturing, it is essential that these models provide transparent reasoning behind thei...
+4. [L2 = 10.3565] Reproduction Report on "Learn to Pay Attention"
+   cs.LG | 2018 | arXiv:1812.04650
+   We have successfully implemented the "Learn to Pay Attention" model of attention mechanism in convolutional neural networks, and have replicated the results of the original paper in the categories of ...
+5. [L2 = 10.3625] A Novel Biologically Mechanism-Based Visual Cognition Model--Automatic Extraction of Semantics, Formation of Integrated Concepts and Re-selection Features for Ambiguity
+   cs.CV | 2016 | arXiv:1603.07886
+   Integration between biology and information science benefits both fields. Many related models have been proposed, such as computational visual cognition models, computational motor control models, int...
+
+>>> NOT NORMALIZED: same top-5 (incl. order)?
+    cosine vs dot: False
+    cosine vs L2:  False

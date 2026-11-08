@@ -1,0 +1,179 @@
+
+==========================================================================================
+1. 30 LONGEST ABSTRACTS
+==========================================================================================
+Abstract length in this group: 299–363 words (whole dataset: median 166 words)
+
+   363 words | cs.CY    | Traceability as an integral part of supply chain logistics management:
+   328 words | cs.DS    | Engineering Faster Sorters for Small Sets of Items
+   319 words | astro-ph.GA | Analysis of Far-UV Data of Central Stars of Planetary Nebulae: Occurre
+   314 words | math-ph  | The split and approximate split property in 2D systems: stability and 
+   312 words | cs.GT    | On a Bounded Budget Network Creation Game
+   311 words | math.CO  | H-colouring bipartite graphs
+   310 words | cs.CR    | Depth, Not Breadth: Best-of-N Jailbreaking Beyond Surface Noise
+   310 words | cs.DC    | Sleeping Model: Local and Dynamic Algorithms
+   309 words | cs.LG    | A Bayesian Active Learning Approach to Comparative Judgement
+   308 words | cs.DC    | When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for 
+   308 words | cs.CE    | Compressible aerodynamics and rigid-body support motion in post-flutte
+   307 words | astro-ph | Warm gas accretion onto the Galaxy
+   304 words | cs.DS    | HashGraph -- Scalable Hash Tables Using A Sparse Graph Data Structure
+   304 words | astro-ph.SR | Molecules in the transition disk orbiting T Cha
+   304 words | cs.SI    | Approximation Algorithms for Coordinating Ad Campaigns on Social Netwo
+   304 words | cs.LG    | Pb-Hash: Partitioned b-bit Hashing
+   303 words | cs.DS    | Conflict Resolution in Multiple Access Channels Supporting Simultaneou
+   303 words | cs.AI    | Winning by Peeking: Unenforced Budgets and Test-Set Selection Inflate 
+   302 words | astro-ph.EP | Is ozone a reliable proxy for molecular oxygen? III. The impact of CH$
+   302 words | astro-ph.EP | Resolving the hot dust around HD69830 and eta Corvi with MIDI and VISI
+   301 words | cs.DM    | Tree-layout based graph classes: proper chordal graphs
+   301 words | cs.LG    | Extreme Volatility Prediction in Stock Market: When GameStop meets Lon
+   301 words | cs.DM    | On the Expansion of Group-Based Lifts
+   301 words | cs.CV    | The applicability of transperceptual and deep learning approaches to t
+   301 words | cs.LG    | Multi Stage Screening: Enforcing Fairness and Maximizing Efficiency in
+   301 words | cs.SE    | A Large-Scale Empirical Study of COVID-19 Contact Tracing Mobile App R
+   300 words | cs.CR    | A Wolf in Sheep's Clothing: Spreading Deadly Pathogens Under the Disgu
+   300 words | astro-ph.SR | Numerical studies on the link between radioisotopic signatures on Eart
+   300 words | cs.GT    | Discrete Preference Games in Heterogeneous Social Networks: Subverted 
+   299 words | cs.IR    | Don't read, just look: Main content extraction from web pages using vi
+
+==========================================================================================
+2. CHUNKING STATISTICS
+==========================================================================================
+
+FIXED:
+  chunks total:            241  (8.0 per paper)
+  words per chunk:         min 19, mean 47.1, max 50
+  chunks ending mid-sentence:   206
+  chunks starting mid-sentence: 189
+
+SEMANTIC:
+  chunks total:            204  (6.8 per paper)
+  words per chunk:         min 9, mean 45.2, max 79
+  chunks ending mid-sentence:   0
+  chunks starting mid-sentence: 0
+
+--- Example: how one abstract is split ---
+Paper: Traceability as an integral part of supply chain logistics management: an analytical review
+
+[FIXED]
+  #0 (50 words): Purpose: Supply chain has become very complex today. There are multiple stakeholders at va ... product location, its processing history, raw materials, etc
+  #1 (50 words): about the product location, its processing history, raw materials, etc at each point so as ...  across the business supply chain from source to destination
+  #2 (50 words): effectiveness across the business supply chain from source to destination to achieve their ... ream at each point. All the stakeholders in the supply chain
+  #3 (50 words): at each point. All the stakeholders in the supply chain have different objectives to imple ... l these actors are also different and are to be shared among
+  #4 (50 words): actors are also different and are to be shared among all to run the supply chain smoothly. ... t traceability solutions. The purpose of this research is to
+  #5 (50 words): current traceability solutions. The purpose of this research is to conduct thorough study  ... business supply chain. The study will be helpful for further
+  #6 (50 words): business supply chain. The study will be helpful for further researchers to propose a trac ... The scope and the objectives of the research is set based on
+  #7 (50 words): and the objectives of the research is set based on which the papers are filtered as per th ... e industries since a long for their supply chain management.
+  #8 (43 words): the industries since a long for their supply chain management. After proper analysis of th ... ive the proper recommendations and perspectives of our work.
+
+[SEMANTIC]
+  #0 (60 words): Purpose: Supply chain has become very complex today. There are multiple stakeholders at va ... , etc at each point so as to control the production process.
+  #1 (35 words): Companies need to develop global and effective strategies to sustain in the competitive ma ... from source to destination to achieve their strategic goals.
+  #2 (57 words): Traceability has become one of the integrated parts of the supply chain logistics manageme ... facturers, distributers or wholesalers have their own role).
+  #3 (51 words): The information generated and needed from all these actors are also different and are to b ... challenge to be addressed in current traceability solutions.
+  #4 (57 words): The purpose of this research is to conduct thorough study of the literatures available on  ... rs to propose a traceability meta-model to address the gaps.
+  #5 (54 words): Design/methodology/approach: The relevant literatures with keywords supply chain managemen ...  screened papers are done and the recommendations are given.
+  #6 (49 words): Findings: Traceability solution is popular among the industries since a long for their sup ... ive the proper recommendations and perspectives of our work.
+
+
+==========================================================================================
+3. EXPERIMENT: OVERLAP vs NUMBER OF CHUNKS (fixed size = 50 words)
+==========================================================================================
+Total words in the 30 abstracts: 9230
+
+ overlap | chunks | words stored | duplication
+       0 |    207 |         9230 |       1.00x
+      10 |    241 |        11340 |       1.23x
+      25 |    359 |        17455 |       1.89x
+      40 |    818 |        40750 |       4.41x
+
+==========================================================================================
+4. EMBEDDING AND UPLOADING CHUNKS
+==========================================================================================
+Creating index 'arxiv-chunks-fixed'...
+Creating index 'arxiv-chunks-semantic'...
+Index 'arxiv-chunks-fixed': 241 vectors
+
+Index 'arxiv-chunks-semantic': 204 vectors
+
+
+==========================================================================================
+5. SEARCH OVER CHUNKS
+==========================================================================================
+
+Query: "deep neural network for image recognition"
+
+  --- FIXED ---
+  1. [cosine = 0.8506] Extreme Volatility Prediction in Stock Market: When GameStop meets Lon (chunk #2)
+     "ETF fund) from February 2002 to February 2021. For strategy 1, we develop a Long Short-term Memory (LSTM) Neural Network to predict stock prices recurrently wit..."
+  2. [cosine = 0.8422] The applicability of transperceptual and deep learning approaches to t (chunk #2)
+     "architectures mimicking the native ones. The proposed method uses both traditional imagery, and sound generated from each image as a method of rapidly comparing..."
+  3. [cosine = 0.8227] The applicability of transperceptual and deep learning approaches to t (chunk #5)
+     "image is divided into 16 squares to maintain the limit of 64 $\times$ 64 pixels required by the GAN. We reconstruct the 2D stacks of artificially generated data..."
+  4. [cosine = 0.8171] The applicability of transperceptual and deep learning approaches to t (chunk #3)
+     "generative adversarial network (GAN) on the 2D image stacks. The impact of the training set of images on the similarity of the artificial to the original datase..."
+  5. [cosine = 0.8103] Extreme Volatility Prediction in Stock Market: When GameStop meets Lon (chunk #7)
+     "our study sheds more light into the field of extreme volatility predictions based on LSTMs to outperform buying and holding strategy...."
+
+  --- SEMANTIC ---
+  1. [cosine = 0.8355] The applicability of transperceptual and deep learning approaches to t (chunk #2)
+     "The proposed method uses both traditional imagery, and sound generated from each image as a method of rapidly comparing and contrasting the porosity and pore si..."
+  2. [cosine = 0.8254] The applicability of transperceptual and deep learning approaches to t (chunk #3)
+     "The impact of the training set of images on the similarity of the artificial to the original dataset was assessed by analyzing two samples...."
+  3. [cosine = 0.8109] Extreme Volatility Prediction in Stock Market: When GameStop meets Lon (chunk #5)
+     "We hope that our study sheds more light into the field of extreme volatility predictions based on LSTMs to outperform buying and holding strategy...."
+  4. [cosine = 0.8022] Extreme Volatility Prediction in Stock Market: When GameStop meets Lon (chunk #2)
+     "For our strategy 2, we develop an LSTM autoencoder network specifically designed to trade only on consolidation breakouts after predicting anomalies in the stoc..."
+  5. [cosine = 0.8010] Extreme Volatility Prediction in Stock Market: When GameStop meets Lon (chunk #1)
+     "We investigate GME stock for its volatility and compare it to SPY as a benchmark (since it is a less volatile ETF fund) from February 2002 to February 2021. For..."
+
+Query: "privacy and security of machine learning models"
+
+  --- FIXED ---
+  1. [cosine = 0.8530] Pb-Hash: Partitioned b-bit Hashing (chunk #5)
+     "be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb-Hash in machine learnin..."
+  2. [cosine = 0.8079] Multi Stage Screening: Enforcing Fairness and Maximizing Efficiency in (chunk #6)
+     "per hire) at the end of the final stage. We also present examples showing that the solution space is non-convex, which motivate our exact and (FPTAS) approximat..."
+  3. [cosine = 0.8027] A Wolf in Sheep's Clothing: Spreading Deadly Pathogens Under the Disgu (chunk #6)
+     "control over the negative pressure and show that the \textit{forged} pressure can be varied within 12 - 33 Pa. Our attack is also capable of attacking multiple ..."
+  4. [cosine = 0.7952] Extreme Volatility Prediction in Stock Market: When GameStop meets Lon (chunk #6)
+     "success rate and \$2.10 from strategy 2 with 48% success rate. Overall, buying and holding outperforms all deep-learning assisted prediction models in our study..."
+  5. [cosine = 0.7946] Extreme Volatility Prediction in Stock Market: When GameStop meets Lon (chunk #7)
+     "our study sheds more light into the field of extreme volatility predictions based on LSTMs to outperform buying and holding strategy...."
+
+  --- SEMANTIC ---
+  1. [cosine = 0.8445] Pb-Hash: Partitioned b-bit Hashing (chunk #4)
+     "We expect Pb-Hash would be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb..."
+  2. [cosine = 0.8051] A Wolf in Sheep's Clothing: Spreading Deadly Pathogens Under the Disgu (chunk #6)
+     "Moreover, we demonstrate our attack at a real-world NPR located in an anonymous bioresearch facility, which is FDA approved and follows CDC guidelines. We also ..."
+  3. [cosine = 0.8036] Multi Stage Screening: Enforcing Fairness and Maximizing Efficiency in (chunk #6)
+     "We also present examples showing that the solution space is non-convex, which motivate our exact and (FPTAS) approximation algorithms for maximizing the linear ..."
+  4. [cosine = 0.7943] Extreme Volatility Prediction in Stock Market: When GameStop meets Lon (chunk #5)
+     "We hope that our study sheds more light into the field of extreme volatility predictions based on LSTMs to outperform buying and holding strategy...."
+  5. [cosine = 0.7924] A Bayesian Active Learning Approach to Comparative Judgement (chunk #4)
+     "Furthermore, we demonstrate how the entire approach may provide transparency by providing the user insights into how it is making its decisions and, at the same..."
+
+Query: "theoretical convergence guarantees of an optimization algorithm"
+
+  --- FIXED ---
+  1. [cosine = 0.8379] Multi Stage Screening: Enforcing Fairness and Maximizing Efficiency in (chunk #6)
+     "per hire) at the end of the final stage. We also present examples showing that the solution space is non-convex, which motivate our exact and (FPTAS) approximat..."
+  2. [cosine = 0.8291] Approximation Algorithms for Coordinating Ad Campaigns on Social Netwo (chunk #5)
+     "practical; however, we show that specifically under the Independent Cascade model, LP rounding and Reverse Reachability techniques can be combined to obtain a 1..."
+  3. [cosine = 0.8227] Sleeping Model: Local and Dynamic Algorithms (chunk #7)
+     "is the neighborhood independence of the input graph. Graphs with bounded neighborhood independence are well studied with several results in recent years for sev..."
+  4. [cosine = 0.8149] Sleeping Model: Local and Dynamic Algorithms (chunk #5)
+     "a higher awake complexity for lower clock round complexity. We note that the awake time incurred is not that significant. We offer dynamic algorithms in the sle..."
+  5. [cosine = 0.8056] A Bayesian Active Learning Approach to Comparative Judgement (chunk #3)
+     "that should be compared next in an informative manner, but some existing methods are known to have created their own bias within results inflating the reliabili..."
+
+  --- SEMANTIC ---
+  1. [cosine = 0.8345] Multi Stage Screening: Enforcing Fairness and Maximizing Efficiency in (chunk #6)
+     "We also present examples showing that the solution space is non-convex, which motivate our exact and (FPTAS) approximation algorithms for maximizing the linear ..."
+  2. [cosine = 0.8312] Approximation Algorithms for Coordinating Ad Campaigns on Social Netwo (chunk #4)
+     "The 1-1/e approximation algorithm for matroid-constrained problem is far from practical; however, we show that specifically under the Independent Cascade model,..."
+  3. [cosine = 0.8208] Approximation Algorithms for Coordinating Ad Campaigns on Social Netwo (chunk #2)
+     "Our main result is to show that under a broad class of influence models, the problem can be reduced to maximizing a submodular function subject to two matroid c..."
+  4. [cosine = 0.8201] Sleeping Model: Local and Dynamic Algorithms (chunk #6)
+     "Specifically, our algorithm requires $O(K)$ awake time where $K$ is the neighborhood independence of the input graph. Graphs with bounded neighborhood independe..."
+  5. [cosine = 0.8182] Sleeping Model: Local and Dynamic Algorithms (chunk #3)
+     "The clock round complexity of that algorithm is $O(\Delta^2)$. In this work we offer three algorithms for the bf O-LOCAL class of problems with a trade off betw..."
